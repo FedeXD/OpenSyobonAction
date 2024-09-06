@@ -846,27 +846,27 @@ void rpaint()
 	    xs[0] = "";
 
 	    if (mmsgtype == 1)
-		xs[0] = "お、おいしい!!";
+		xs[0] = "¡¡Oh, delicioso!!";
 	    if (mmsgtype == 2)
-		xs[0] = "毒は無いが……";
+		xs[0] = "No es venenoso, pero......";
 	    if (mmsgtype == 3)
-		xs[0] = "刺さった!!";
+		xs[0] = "¡¡Me picó!!";
 	    if (mmsgtype == 10)
-		xs[0] = "食べるべきではなかった!!";
+		xs[0] = "¡¡No deberías habértelo comido!!";
 	    if (mmsgtype == 11)
-		xs[0] = "俺は燃える男だ!!";
+		xs[0] = "¡¡Soy un hombre ardiente!!";
 	    if (mmsgtype == 50)
-		xs[0] = "体が……焼ける……";
+		xs[0] = "El cuerpo...... arde......";
 	    if (mmsgtype == 51)
-		xs[0] = "たーまやー!!";
+		xs[0] = "¡¡Ta-maya!!";
 	    if (mmsgtype == 52)
-		xs[0] = "見事にオワタ";
+		xs[0] = "Es un ejemplo perfecto de lo que decimos";
 	    if (mmsgtype == 53)
-		xs[0] = "足が、足がぁ!!";
+		xs[0] = "¡¡Mis piernas!!";
 	    if (mmsgtype == 54)
-		xs[0] = "流石は摂氏800度!!";
+		xs[0] = "¡¡La quintaesencia está a 800 grados Celsius!!";
 	    if (mmsgtype == 55)
-		xs[0] = "溶岩と合体したい……";
+		xs[0] = "Quiero fundirme con la lava......";
 
 	    setc0();
 	    str(xs[0], (ma + mnobia + 300) / 100 - 1, mb / 100 - 1);
@@ -885,103 +885,103 @@ void rpaint()
 		xs[0] = "";
 
 		if (amsgtype[t] == 1001)
-		    xs[0] = "ヤッフー!!";
+		    xs[0] = "¡¡Yahoo!!";
 		if (amsgtype[t] == 1002)
-		    xs[0] = "え?俺勝っちゃったの?";
+		    xs[0] = "¿Cómo? ¿Gané?";
 		if (amsgtype[t] == 1003)
-		    xs[0] = "貴様の死に場所はここだ!";
+		    xs[0] = "¡Tu lugar para morir es aquí!";
 		if (amsgtype[t] == 1004)
-		    xs[0] = "二度と会う事もないだろう";
+		    xs[0] = "Nunca volveremos a vernos";
 		if (amsgtype[t] == 1005)
-		    xs[0] = "俺、最強!!";
+		    xs[0] = "¡¡Yo, el más fuerte!!";
 		if (amsgtype[t] == 1006)
-		    xs[0] = "一昨日来やがれ!!";
+		    xs[0] = "¡¡Ven aquí anteayer!!";
 		if (amsgtype[t] == 1007)
-		    xs[0] = "漢に後退の二文字は無い!!";
+		    xs[0] = "¡¡No hay dos palabras para que Han se retire!!";
 		if (amsgtype[t] == 1008)
-		    xs[0] = "ハッハァ!!";
+		    xs[0] = "¡¡JAJA!!";
 
 		if (amsgtype[t] == 1011)
-		    xs[0] = "ヤッフー!!";
+		    xs[0] = "¡¡Yahoo!!";
 		if (amsgtype[t] == 1012)
-		    xs[0] = "え?俺勝っちゃったの?";
+		    xs[0] = "¿Cómo? ¿Gané?";
 		if (amsgtype[t] == 1013)
-		    xs[0] = "貴様の死に場所はここだ!";
+		    xs[0] = "¡Tu lugar para morir es aquí!";
 		if (amsgtype[t] == 1014)
-		    xs[0] = "身の程知らずが……";
+		    xs[0] = "La miseria del cuerpo......";
 		if (amsgtype[t] == 1015)
-		    xs[0] = "油断が死を招く";
+		    xs[0] = "Bajar la guardia puede ser fatal";
 		if (amsgtype[t] == 1016)
-		    xs[0] = "おめでたい奴だ";
+		    xs[0] = "Eres un hombre afortunado, ¿lo sabías?";
 		if (amsgtype[t] == 1017)
-		    xs[0] = "屑が!!";
+		    xs[0] = "¡¡Eres basura!!";
 		if (amsgtype[t] == 1018)
-		    xs[0] = "無謀な……";
+		    xs[0] = "Imprudente......";
 
 		if (amsgtype[t] == 1021)
-		    xs[0] = "ヤッフー!!";
+		    xs[0] = "¡¡Yahoo!!";
 		if (amsgtype[t] == 1022)
-		    xs[0] = "え?俺勝っちゃったの?";
+		    xs[0] = "¿Cómo? ¿Gané?";
 		if (amsgtype[t] == 1023)
-		    xs[0] = "二度と会う事もないだろう";
+		    xs[0] = "Nunca volveremos a vernos";
 		if (amsgtype[t] == 1024)
-		    xs[0] = "身の程知らずが……";
+		    xs[0] = "La miseria del cuerpo......";
 		if (amsgtype[t] == 1025)
-		    xs[0] = "僕は……負けない!!";
+		    xs[0] = "¡¡Yo...... no voy a perder!!";
 		if (amsgtype[t] == 1026)
-		    xs[0] = "貴様に見切れる筋は無い";
+		    xs[0] = "No tienes derecho a mirar sobre mi hombro";
 		if (amsgtype[t] == 1027)
 		    xs[0] =
-			"今死ね、すぐ死ね、骨まで砕けろ!!";
+			"¡¡Muere ahora, muere pronto, aplástame hasta los huesos!!";
 		if (amsgtype[t] == 1028)
-		    xs[0] = "任務完了!!";
+		    xs[0] = "¡¡Misión cumplida!!";
 
 		if (amsgtype[t] == 1031)
-		    xs[0] = "ヤッフー!!";
+		    xs[0] = "¡¡Yahoo!!";
 		if (amsgtype[t] == 1032)
-		    xs[0] = "え?俺勝っちゃったの?";
+		    xs[0] = "¿Cómo? ¿Gané?";
 		if (amsgtype[t] == 1033)
-		    xs[0] = "貴様の死に場所はここだ!";
+		    xs[0] = "¡Tu lugar para morir es aquí!";
 		if (amsgtype[t] == 1034)
-		    xs[0] = "身の程知らずが……";
+		    xs[0] = "La miseria del cuerpo......";
 		if (amsgtype[t] == 1035)
-		    xs[0] = "油断が死を招く";
+		    xs[0] = "Bajar la guardia puede ser fatal";
 		if (amsgtype[t] == 1036)
-		    xs[0] = "おめでたい奴だ";
+		    xs[0] = "Eres un hombre afortunado, ¿lo sabías?";
 		if (amsgtype[t] == 1037)
-		    xs[0] = "屑が!!";
+		    xs[0] = "¡¡Eres basura!!";
 		if (amsgtype[t] == 1038)
-		    xs[0] = "無謀な……";
+		    xs[0] = "Imprudente......";
 
 		if (amsgtype[t] == 15)
-		    xs[0] = "鉄壁!!よって、無敵!!";
+		    xs[0] = "¡¡Coraza de hierro!! Por lo tanto, ¡¡invencible!!";
 		if (amsgtype[t] == 16)
-		    xs[0] = "丸腰で勝てるとでも?";
+		    xs[0] = "¿Crees que puedes ganar desarmado?";
 		if (amsgtype[t] == 17)
-		    xs[0] = "パリイ!!";
+		    xs[0] = "¡¡Parii!!";
 		if (amsgtype[t] == 18)
-		    xs[0] = "自業自得だ";
+		    xs[0] = "Tienes lo que te mereces";
 		if (amsgtype[t] == 20)
 		    xs[0] = "Zzz";
 		if (amsgtype[t] == 21)
-		    xs[0] = "ク、クマー";
+		    xs[0] = "Kumar";
 		if (amsgtype[t] == 24)
 		    xs[0] = "?";
 		if (amsgtype[t] == 25)
-		    xs[0] = "食べるべきではなかった!!";
+		    xs[0] = "¡¡No debiste comerlo!!";
 		if (amsgtype[t] == 30)
-		    xs[0] = "うめぇ!!";
+		    xs[0] = "¡¡Ñam!!";
 		if (amsgtype[t] == 31)
-		    xs[0] = "ブロックを侮ったな?";
+		    xs[0] = "Subestimaste a Brock, ¿verdad?";
 		if (amsgtype[t] == 32)
-		    xs[0] = "シャキーン";
+		    xs[0] = "clink";
 
 		if (amsgtype[t] == 50)
-		    xs[0] = "波動砲!!";
+		    xs[0] = "¡¡Cañón de olas!!";
 		if (amsgtype[t] == 85)
-		    xs[0] = "裏切られたとでも思ったか?";
+		    xs[0] = "¿Te sentiste traicionado?";
 		if (amsgtype[t] == 86)
-		    xs[0] = "ポールアターック!!";
+		    xs[0] = "¡¡Paul Attac!!";
 
 		if (amsgtype[t] != 31) {
 		    xx[5] = (aa[t] + anobia[t] + 300 - fx) / 100;
@@ -1123,7 +1123,7 @@ void rpaint()
 	}
 
 	setcolor(0, 0, 0);
-	str("Enterキーを押せ!!", 240 - 8 * 20 / 2, 250);
+	str("Pulse la tecla Enter!!", 240 - 8 * 20 / 2, 250);
 
     }
     ScreenFlip();
@@ -10467,78 +10467,78 @@ void ttmsg()
 	if (tmsg == 1) {
 	    setc1();
 	    txmsg("", 0);
-	    txmsg("ステージ 1 より", 0);
-	    txmsg("特殊的なものが増えたので", 1);
-	    txmsg("気をつけてくれよ〜", 2);
+	    txmsg("A partir de la fase 1", 0);
+	    txmsg("Ha aumentado el número de artículos especializados", 1);
+	    txmsg("Ten cuidado, por favor", 2);
 	    txmsg
-		("後、アイテムの一部を利用するかも…", 4);
-	    txmsg("                       ちく より", 6);
+		("Más tarde, algunos de los objetos podrían utilizarse...", 4);
+	    txmsg("                       de bambú", 6);
 	}
 
 	if (tmsg == 2) {
-	    txmsg("            ？が必要です ", 3);
+	    txmsg("            es necesario? ", 3);
 	    txmsg("                         m9(^Д^)", 6);
 	}
 
 	if (tmsg == 3) {
-	    txmsg("   別にコインに意味ないけどね ", 3);
-	    txmsg("                      (・ω・ )ﾉｼ", 6);
+	    txmsg("   No es que signifique algo para las monedas ", 3);
+	    txmsg("                      (・ω・ )Noshi", 6);
 	}
 
 	if (tmsg == 4) {
-	    txmsg("この先に隠しブロックがあります ", 2);
-	    txmsg("注意してください !!", 4);
+	    txmsg("Hay un bloque oculto más adelante ", 2);
+	    txmsg("¡¡Atención!!", 4);
 	}
 
 	if (tmsg == 5) {
 	    txmsg("", 0);
-	    txmsg(" 前回よりも難易度を下げましたので", 1);
-	    txmsg(" 気楽にプレイしてください    ", 3);
-	    txmsg("                       ちく より", 6);
+	    txmsg(" Hemos reducido el nivel de dificultad en comparación con la última vez", 1);
+	    txmsg(" Juega con calma    ", 3);
+	    txmsg("                       de bambú", 6);
 	}
 
 	if (tmsg == 6) {
 	    txmsg("", 0);
-	    txmsg(" そこにいる敵のそばによると、      ", 1);
+	    txmsg(" Según el lado del enemigo allí、      ", 1);
 	    txmsg
-		(" 自分と一緒にジャンプしてくれます。",
+		(" Salta contigo",
 		 2);
-	    txmsg("   可愛いですね。                  ", 3);
+	    txmsg("   Qué bonito                  ", 3);
 	}
 
 	if (tmsg == 7) {
 	    txmsg("", 0);
-	    txmsg(" あの敵は連れて来れましたか?、     ", 1);
-	    txmsg(" 連れて来れなかった貴方は、        ", 2);
-	    txmsg(" そこの落とし穴から Let's dive!    ", 3);
+	    txmsg(" ¿Pudiste traer a ese enemigo? Pude,     ", 1);
+	    txmsg(" Tú, que no pudiste traerlos,        ", 2);
+	    txmsg(" ¡Saltemos desde el foso!    ", 3);
 	}
 
 	if (tmsg == 8) {
-	    txmsg("そんな容易に", 1);
-	    txmsg("ヒントに頼るもんじゃないぜ", 2);
-	    txmsg("ほら、さっさと次行きな!!", 3);
+	    txmsg("Así de fácil", 1);
+	    txmsg("No confíes en las propinas", 2);
+	    txmsg("¡Vamos, adelante y a por el siguiente!", 3);
 	}
 
 	if (tmsg == 9) {
-	    txmsg(" 正真正銘のファイナルステージ。    ", 1);
-	    txmsg(" クリアすれば遂にエンディング!!    ", 2);
-	    txmsg(" その土管から戻ってもいいんだぜ?   ", 3);
+	    txmsg(" Una auténtica etapa final    ", 1);
+	    txmsg(" ¡¡Por fin un final si lo despejas!!    ", 2);
+	    txmsg(" Puedes volver a través de esa tubería de arcilla, ¿sabes?   ", 3);
 	}
 
 	if (tmsg == 10) {
 	    txmsg
-		(" 床が凍ってるから、すっごい滑るよ。",
+		(" El suelo está helado, así que es muy resbaladizo.",
 		 1);
 	    txmsg(" ", 2);
 	    txmsg(" 　                      ", 3);
 	}
 
 	if (tmsg == 100) {
-	    txmsg("え？私ですか？ ", 0);
-	    txmsg("いやぁ、ただの通りすがりの", 2);
-	    txmsg("ヒントブロックですよ〜", 3);
+	    txmsg("¿Eh? ¿Soy yo? ", 0);
+	    txmsg("Oh no, sólo estoy de paso", 2);
+	    txmsg("Es un bloque de pistas", 3);
 	    txmsg
-		("決して怪しいブロックじゃないですよ", 5);
+		("No es un bloque sospechoso ni mucho menos", 5);
 	    txmsg("                          (…チッ)", 6);
 	}
 
